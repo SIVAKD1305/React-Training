@@ -1,0 +1,14 @@
+nav{
+    background-color: black;
+    color: whitesmoke;
+    padding: 20px;
+}
+h1, ul, li{
+    display: inline;
+}
+li{
+    padding-left: 20px;
+}
+ul{
+    margin-left: 75%;
+}
