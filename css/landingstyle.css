@@ -10,9 +10,11 @@
     font-family: poppins;
     color: whitesmoke;
     height: 8%;
+    display: flex;
+    justify-content:space-between;
 }
 .logo{
-    height: 60%;
+    height: 90%;
     max-width: 150px;
     margin-left: 40px;
     margin-right: 60%;
@@ -25,7 +27,6 @@
     align-items: center;
     height: 100%;
     font-size: 20px;
-    margin-left: auto;
 }
 .home{
     color: #ffff;
