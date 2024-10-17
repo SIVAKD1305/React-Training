@@ -22,6 +22,9 @@
 .Right_nav{
     display: inline-flex;
 }
+.home, .home::after{
+    color: #ffff;
+}
 
 .Banner{
     background: linear-gradient(#1b1834,#381571,#794dfd);
