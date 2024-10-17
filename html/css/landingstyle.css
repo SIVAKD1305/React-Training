@@ -2,7 +2,7 @@
    margin: 0;
    padding: 0;
    box-sizing: border-box;
-   /* background-color: #242145; */
+  
 }
 .header{
     background-color: #242145;
@@ -12,50 +12,59 @@
 .logo{
     width: 100px;
     display: inline;
+    margin-left: 10px;
+    height: 40px;
+    vertical-align: middle;
 }
 .Right_nav{
     display: inline-flex;
+    margin-left: 40%;
 }
 .Banner{
     background: linear-gradient(#1b1834,#381571,#794dfd);
     font-family: poppins;
-}
-
-
-.Banner_box1{
-    padding: 5% 0%;
+    padding: 3% 3%;
     display: flex;
     align-items: center;
     margin: 0 auto;
 }
 
-.Banner_box2{
-   background-image: url(https://terv.pro/static/media/Frame.e9db8db1.png);
-   background-repeat: no-repeat;
-   background-position: right bottom;
-   background-size: 500px;
-   border-color: rgba(19, 15, 47, .5);
-   background-color: rgba(19, 15, 47, .5);
-   display: flex;
-   border-radius: 25%;
-   padding: 3rem 2rem;
-   align-items: center;
-   flex-direction: column;
+.Banner_box{
+    width: 100%;
+    background-image:url("https://terv.pro/static/media/Frame.e9db8db1.png");
+    background-color: rgba(19, 15, 47, .5);
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    border: 1px solid rgba(19, 15, 47, .5);
+    border-radius: 25px;
+    padding: 3rem 2rem;
 }
-.Banner_text1{
+.BannerText{
+    display: inline-block;
+    width: 50%;
+}
+ .Banner_text1{
     color: #ffff;
     font-size: 60px;
     font-weight: 600;
     line-height: 80px;
-    text-align: left;
 }
 .Banner_text2{
     color: #ffff;
     font-size: 32px;
-    font-weight: 400;
-    line-height: 40px;
+    line-height: 50px;
+}
+.Banner_Button{
+    width: 150px;
+    height: 50px;
+    background-color: #784df5;
+    border-color: #784df5;
+    border-radius: 0.5rem;
+    color: #ffff;
 }
 .Banner_img{
-    width: 100%;
-    height: 100%;
-}
+    width: 35%;
+    height: 35%;
+    margin-left: 9%;
+} 
