@@ -1,0 +1,50 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+.header{
+    background-color: #242145;
+    font-family: poppins;
+    color: whitesmoke;
+}
+.logo{
+    width: 100px;
+    display: inline;
+}
+.Right_nav{
+    display: inline;
+}
+.Banner{
+    background-color: rgb(73, 80, 87);
+    font-family: poppins;
+}
+.Banner_box{
+    background-size: 520px;
+}
+.Banner_text1{
+    color: #ffff;
+    font-size: 66px;
+    font-weight: 600;
+    line-height: 80px;
+}
+.Banner_text2{
+    color: #ffff;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: left;
+}
+.Banner_img{
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+
+}
+.Banner_box{
+    background-image: url(https://terv.pro/static/media/Frame.e9db8db1.png);
+    display: flex;
+    align-items: center;
+    background-color: rgba(19,15,37,.4);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
