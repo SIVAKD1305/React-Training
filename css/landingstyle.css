@@ -34,7 +34,7 @@
 
 .Banner_box{
     width: 100%;
-    background-image:url("https://terv.pro/static/media/Frame.e9db8db1.png");
+    background-image:url("/images/Banner_Box_BG.png");
     background-color: rgba(19, 15, 47, .5);
     background-size: 500px;
     background-repeat: no-repeat;
