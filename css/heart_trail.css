@@ -23,7 +23,8 @@ span{
         opacity: 1;
     }
     100%{
-        transform: translate(-50%, -5000%);
+        transform: translate(-50%, -3000%);
         opacity: 0;
+        filter: hue-rotate(1000deg);
     }
 }
