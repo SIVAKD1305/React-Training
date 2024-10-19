@@ -8,5 +8,8 @@ body.addEventListener("mousemove",
         spanTag.style.left = xpos+"px";
         spanTag.style.top = ypos+"px";
         body.append(spanTag);
+        setTimeout(()=>{
+            spanTag.remove()
+        }, 3000)
         // body.appendChild(spanTag);
     });
