@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+span{
+    background: url(https://upload.wikimedia.org/wikipedia/commons/8/8e/Heart-image.png);
+    height: 100px;
+    width: 100px;
+    background-size: 100px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-repeat: no-repeat;
+    background-position: center;
+    pointer-events:none;
+}
